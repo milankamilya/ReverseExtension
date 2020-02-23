@@ -74,7 +74,7 @@ final public class TouchView: UIImageView {
         
         RunLoop
             .main
-            .add(timer!, forMode: RunLoopMode.commonModes)
+            .add(timer!, forMode: RunLoop.Mode.commonModes)
         
         if _config.showsTimer {
             timerLabel.alpha = 1.0
